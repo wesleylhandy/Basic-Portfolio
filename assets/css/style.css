@@ -1,4 +1,5 @@
-html, body {
+html, 
+body {
 	height: 100%;
 }
 
@@ -7,7 +8,6 @@ body {
 	background-color: #ffffff;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
-	
 }
 
 header {
@@ -16,11 +16,14 @@ header {
 	background-image: none;
 }
 
-h1, h2, #name {
+h1, 
+h2, 
+#name {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
-h1, h2 {
+h1, 
+h2 {
 	color: #4aaaa5;
 }
 
@@ -98,7 +101,8 @@ a:hover {
 	
 }
 
-aside, article {
+aside, 
+article {
 	border-style: solid;
 	border-width: 2px;
 	border-color: #dddddd;
@@ -169,7 +173,37 @@ article {
 }
 
 .connect-btn:hover {
+	filter: drop-shadow(2px 2px 0px #4aaaa5);	
+}
+
+input {
+	color: #777777;
+	width: 585px;
+	padding: 5px 0px 5px 0px;
+	font-size: 18px;
+}
+
+.form-label {
+	padding: 10px 0px 10px 0px;
+}
+
+#msg-entry {
+	margin-bottom: 10px;
+}
+
+#submit-button {
+	width: 110px;
+	background-color: #ffffff;
+	color: #4aaaa5;
+	border: 2px solid #4aaaa5;
+	transition-duration: 0.4s;
+	font-size: 18px;
+	padding: 10px 20px 10px 20px;
+}
+
+#submit-button:hover {
 	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
 hr {
@@ -179,7 +213,6 @@ hr {
 }
 
 footer {
-	
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 10px;
