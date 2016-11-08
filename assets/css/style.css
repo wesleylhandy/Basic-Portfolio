@@ -84,8 +84,8 @@ a:hover {
 
 #container {
 	clear: both;
-	background: url("../images/crossword/crossword.png") no-repeat center center fixed;
-	background-size: cover;
+	background: url("../images/subtle_stripes/subtle_stripes_@2X.png") /*no-repeat center center fixed*/;
+	/*background-size: cover;*/
 	border-top-style: solid;
 	border-top-color: #cccccc;
 	border-top-width: 3px;
