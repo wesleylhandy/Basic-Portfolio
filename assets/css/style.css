@@ -82,6 +82,10 @@ a:hover {
 	padding: 5px;
 }
 
+em {
+	font-style: italic;
+}
+
 #container {
 	clear: both;
 	background: url("../images/subtle_stripes/subtle_stripes_@2X.png") /*no-repeat center center fixed*/;
